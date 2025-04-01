@@ -38,7 +38,7 @@ def solve_quadratic_formula(a, b, c):
     ):
         raise TypeError("All coefficients must be of type float or int!")
     if a == 0:
-        raise SyntaxError("Cannot solve quadratic formula with a = 0!")
+        raise SyntaxError("Cannot solve quadratic formula with a= 0!")
     if b == 5:
         raise NameError("I don't like when b = 5!")
     D = b**2 - 4 * a * c
